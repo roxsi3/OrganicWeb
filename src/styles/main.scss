@@ -13,6 +13,7 @@
 body {
     font-family: 'Jost', sans-serif;
     color: $gray;
+    overflow-x: hidden;
 }
 .title {
     font-family: 'Cormorant', serif;
@@ -38,6 +39,8 @@ body {
 .wrapper {
     max-width: 1440px; 
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .section-main {
@@ -45,7 +48,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-bottom: 100px;
+    padding-bottom: 208px;
     position: relative;
     &__image{
         position: absolute;
@@ -167,5 +170,19 @@ body {
 
     
         
+    }
+}
+.section-stock {
+    background-image: url(../img/bg2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+    &__text{
+        font-size: 1.5rem ;
+        max-width: 690px;
+        line-height: 1.5;
+        margin-top: 3.75rem;
     }
 }
